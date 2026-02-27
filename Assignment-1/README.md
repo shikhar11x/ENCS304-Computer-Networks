@@ -1,9 +1,9 @@
 # 🌐 ENCS304 – Computer Networks  
-## 📘 Assignment 1: Implementation and Analysis of Basic Network Topologies  
+## 📘 Assignment 1: Basic Network Topologies
 
 ---
 
-### 👤 Student Information
+## 👤 Student Details
 
 - **Name:** Shikhar Bajpai  
 - **Roll No.:** 2301010188  
@@ -13,52 +13,70 @@
 
 ---
 
-# 📁 Submitted Files
+## 📁 Repository Structure
 
-| File Name | Description |
-|------------|------------|
-| `exp1_topologies.pkt` | Cisco Packet Tracer simulation file containing all network experiments |
-| `output_exp1.txt` | Ping results and detailed observations |
-| `report_exp1.pdf` | Complete report with screenshots and conclusions |
-| `README.md` | Instructions to open and test the simulation |
-
----
-
-# 🛠️ Software Requirement
-
-- ✅ **Cisco Packet Tracer (Version 8.0 or above recommended)**  
-- ✅ No additional configuration required  
-- ✅ Simulation runs fully inside Packet Tracer  
+Assignment1/
+│
+├── exp1_topologies.pkt  
+├── output_exp1.txt  
+├── report_exp1.pdf  
+└── README.md  
 
 ---
 
-# 🚀 How to Open the Project
+## 🛠️ Software Requirement
 
-1. Install and launch **Cisco Packet Tracer**
-2. Click **File → Open**
-3. Select `exp1_topologies.pkt`
-4. All four topologies are clearly labelled inside the workspace
-
----
-
-# 🔬 Experiment Details
+- Cisco Packet Tracer (Version 8.0 or above recommended)  
+- No additional software required  
+- Simulation runs completely inside Packet Tracer  
 
 ---
 
-## 🔹 Task 1 – Star Topology Using Switch
+## 🚀 How to Run the Simulation
 
-**Devices Used:** 1 Switch (2960-24TT) + 4 PCs  
-**Network Address:** `10.10.10.0/24`
+1. Install and open Cisco Packet Tracer  
+2. Click **File → Open**  
+3. Select `exp1_topologies.pkt`  
+4. All four topologies are clearly labelled inside the workspace  
 
-### 📌 IP Configuration
+---
 
-| Device | IP Address | Subnet Mask |
-|---------|------------|-------------|
-| PC0 | 10.10.10.1 | 255.255.255.0 |
-| PC1 | 10.10.10.2 | 255.255.255.0 |
-| PC2 | 10.10.10.3 | 255.255.255.0 |
-| PC3 | 10.10.10.4 | 255.255.255.0 |
+## 🔬 Experiments Included
 
-### 🧪 Testing Commands
+### 🔹 Task 1 – Star Topology (Switch)
+- 1 Switch + 4 PCs  
+- IPv4 configuration in network `10.10.10.0/24`  
 
-Open **PC0 → Desktop → Command Prompt**
+### 🔹 Task 2 – Hub Topology
+- 1 Hub + 4 PCs  
+- Broadcast behaviour analysed using Simulation Mode  
+
+### 🔹 Task 3 – Ring-like Topology (Switch Loop)
+- 3 Switches connected in loop  
+- Spanning Tree Protocol (STP) behaviour observed  
+
+### 🔹 Task 4 – Link Failure Test
+- Inter-switch link disconnected  
+- STP reconvergence tested  
+- Alternate path activation verified  
+
+---
+
+## 📚 Concepts Demonstrated
+
+- Difference between Switch and Hub forwarding  
+- MAC address learning mechanism  
+- Broadcast traffic behaviour  
+- Spanning Tree Protocol (STP)  
+- Fault tolerance in LAN topology  
+
+---
+
+## 📄 Additional Files
+
+- `output_exp1.txt` contains ping verification results  
+- `report_exp1.pdf` includes screenshots and detailed explanation  
+
+---
+
+⭐ Prepared for ENCS304 – Computer Networks Lab Submission
