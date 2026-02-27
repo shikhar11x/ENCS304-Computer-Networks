@@ -17,7 +17,6 @@
 
 Assignment1/
 
-│
 ├── exp1_topologies.pkt  
 ├── output_exp1.txt  
 ├── report_exp1.pdf  
