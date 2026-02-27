@@ -2,9 +2,9 @@ ENCS304 – Computer Networks
 Assignment 1: Implementation and Analysis of Basic Network Topologies
 
 Name: Shikhar Bajpai
-Roll No.: (Apna roll number daal de)
+Roll No.: 2301010188
 Programme: B.Tech Computer Science & Engineering
-Section: (Apni section daal de)
+Section: Section 3
 Date: 27 February 2026
 
 📁 Submitted Files
