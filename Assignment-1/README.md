@@ -48,7 +48,7 @@ Assignment1/
 - IPv4 configuration in network `10.10.10.0/24`  
 
 ### 🔹 Task 2 – Hub Topology
-- 1 Hub + 4 PCs  
+- Hub + 4 PCs  
 - Broadcast behaviour analysed using Simulation Mode  
 
 ### 🔹 Task 3 – Ring-like Topology (Switch Loop)
